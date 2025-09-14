@@ -1,4 +1,4 @@
-# --- Stage 1: Build dependencies ---
+# Stage 1: Build dependencies 
 FROM node:18-bullseye-slim AS deps
 WORKDIR /app
 
@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y \
 COPY package.json package-lock.json* ./
 RUN npm install
 
-# --- Stage 2: Build app ---
+# Stage 2: Build app
 FROM node:18-bullseye-slim AS builder
 WORKDIR /app
 
@@ -25,7 +25,7 @@ RUN npx playwright install --with-deps
 
 RUN npm run build
 
-# --- Stage 3: Production runtime ---
+# Stage 3: Production runtime
 FROM node:18-bullseye-slim AS runner
 WORKDIR /app
 ENV NODE_ENV=production
