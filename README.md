@@ -25,7 +25,7 @@
 - ⚡ **Fast API** — powered by Playwright running in Node.js.  
 - 🎨 **Modern UI** — Tailwind + shadcn/ui + dark mode.  
 - 📥 **Download Ready** — save screenshots instantly.  
-- 🚀 **Deploy Anywhere** — Render, Railway, Vercel (with Docker).  
+- 🚀 **Deploy Anywhere** — Render, Railway.
 
 ---
 
@@ -45,9 +45,6 @@
   </a>
   <a href="https://railway.app/template">
     <img src="https://railway.app/button.svg" alt="Deploy on Railway"/>
-  </a>
-  <a href="https://vercel.com/new">
-    <img src="https://vercel.com/button" alt="Deploy with Vercel"/>
   </a>
 </p>
 
