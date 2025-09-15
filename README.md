@@ -1,4 +1,4 @@
-### Aishot — Website Screenshot Generator  
+# Aishot — Website Screenshot Generator  
 
 <p align="center">
   <img src="./public/logo.png" width="120" alt="Aishot Logo" />
@@ -37,14 +37,27 @@
 
 ---
 
-## 🌐 Deployment
-<p align="center"> <a href="https://render.com/deploy"> <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render"/> </a> <a href="https://railway.app/template"> <img src="https://railway.app/button.svg" alt="Deploy on Railway"/> </a> <a href="https://vercel.com/new"> <img src="https://vercel.com/button" alt="Deploy with Vercel"/> </a> </p>
+## 🌐 Deployment  
+
+<p align="center">
+  <a href="https://render.com/deploy">
+    <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render"/>
+  </a>
+  <a href="https://railway.app/template">
+    <img src="https://railway.app/button.svg" alt="Deploy on Railway"/>
+  </a>
+  <a href="https://vercel.com/new">
+    <img src="https://vercel.com/button" alt="Deploy with Vercel"/>
+  </a>
+</p>
+
+---
 
 ## ⚡ Quick Start
 
 ```bash
 # Clone repo
-git clone https://github.com/username/aishot.git
+git clone https://github.com/Takawell/aishot.git
 cd aishot
 
 # Install deps
